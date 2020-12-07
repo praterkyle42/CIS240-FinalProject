@@ -18,7 +18,6 @@ public class Customer {
     private String phoneNumber; 
     
     public Customer(int id, String fName, String lName, String phone){
-        //input validation for phone 
         this.phoneNumber = phone; 
         this.customerID = id; 
         this.firstName = fName; 
